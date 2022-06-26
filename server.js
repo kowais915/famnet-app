@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const { on } = require("nodemon");
 const socket = require("socket.io");
 
 
@@ -23,6 +24,10 @@ const io = socket(server);
 
 io.on("connection", function(socket){
     console.log("Made a connection", socket.id);
+
+    socket.on('chat', function(data){
+        io.sockets.emit('chat', data);
+    })
 })
 
 
