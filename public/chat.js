@@ -1,5 +1,5 @@
 
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("https://fam-net.herokuapp.com/");
 
 
 let handle = document.getElementById('handle'),
