@@ -1,0 +1,2 @@
+console.log("Working")
+var socket = io.connect("http://localhost:3000");

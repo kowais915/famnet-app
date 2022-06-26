@@ -1,0 +1,19 @@
+{
+  "name": "famnet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start -p $PORT "
+  },
+  "author": "owais",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  }
+}
