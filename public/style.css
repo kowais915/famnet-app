@@ -97,6 +97,7 @@ footer{
     
     height: 500px;
     background-color: white;
+    overflow: scroll;
     
 }
 
@@ -121,4 +122,46 @@ footer{
         overflow: scroll;
         
     }
+
+
+    /* home page */
+    body > div.content{
+        background-image: url("./bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    
+    }
+    body > div > div.header > h1{
+        font-size: 50px;
+        
+    }
+
+    .card{
+        height: 260px;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    body > div.content > h1{
+        margin-right: 40px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    body > div > div.header > h1 {
+        margin-right: 253px;
+        text-align: center;
+        font-size: 34px;
+        margin-left: -15px;
+    }
+
+    body > div > div.card > div {
+        text-align: center;
+    }
+    
   }
