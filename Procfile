@@ -1,1 +1,1 @@
-web: node /media/wes/D1/Owais/GIKI/MakeSpace/fam-net/backend/server.js
+web: node /backend/server.js
