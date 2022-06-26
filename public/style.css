@@ -118,6 +118,7 @@ footer{
     
         height: 500px;
         background-color: white;
+        overflow: scroll;
         
     }
   }
