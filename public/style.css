@@ -102,6 +102,8 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+   
+    
     #window{
         margin-top: 100px;
         border: 2px wheat solid;
@@ -129,10 +131,13 @@ footer{
         background-image: url("./bg.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 800px;
+        height: 700px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        
         
     
     }
@@ -146,6 +151,7 @@ footer{
         margin-top: 30px;
         padding: 20px;
         margin-left: 40px;
+        margin-bottom: 20px;
     }
 
     body > div.content > h1{
@@ -156,12 +162,26 @@ footer{
     body > div > div.header > h1 {
         margin-right: 253px;
         text-align: center;
-        font-size: 34px;
+        font-size: 25px;
         margin-left: -15px;
     }
 
     body > div > div.card > div {
         text-align: center;
     }
+
+
+    footer{
+        height: 10px;
+        background-color: white;
+        color: black;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
     
+    body > div{
+        padding: 0px;
+        margin: 0px;
+    }
   }
