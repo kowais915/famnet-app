@@ -6,6 +6,7 @@ const socket = require("socket.io");
 const app = express();
 
 app.use(express.static('public'));
+
 app.set("view engine", "ejs");
 
 
