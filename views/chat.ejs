@@ -41,11 +41,18 @@
     
     <!-- navbar ends -->
 <!-- content starts -->
-<div class="content">
-    <div class="header">
-        <h1 >Welcome to the chat</h1>
-    </div>
+<div id="chatContent">
 
+    <div id="window">
+        <div id="output">
+
+        </div>
+
+
+        <input type="text" id="handle"  placeholder="Handle">
+        <input type="text" id="message" placeholder="Message">
+        <button id ="send" class="btn btn-primary">Send</button>
+    </div>
     
         
 </div>
@@ -57,8 +64,7 @@
     
 
 <script src="/chat.js" >
-console.log("Working")
-var socket = io.connect("http://localhost:3000/");
+
 </script>
 </body>
 </html>
