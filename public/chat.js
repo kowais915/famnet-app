@@ -24,6 +24,7 @@ let handle = document.getElementById('handle'),
 
 
     socket.on('chat', function(data){
-        
+    
+    alert(data.msg);
       output.innerHTML += "<p><strong>" + data.username + ": </strong>" + data.msg +"</p>";
     })
