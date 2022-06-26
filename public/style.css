@@ -99,3 +99,25 @@ footer{
     background-color: white;
     
 }
+
+@media only screen and (max-width: 600px) {
+    #window{
+        margin-top: 100px;
+        border: 2px wheat solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+       
+        width: 300px;
+        height: 500px;
+    }   
+    
+
+    #output {
+    
+        height: 500px;
+        background-color: white;
+        
+    }
+  }
